@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-h2-crud-example3-with-view" />
+        <module name="spring-boot-journal-app" />
+        <module name="Synchrony" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Synchrony" options="-parameters" />
+      <module name="spring-boot-h2-crud-example3-with-view" options="-parameters" />
+      <module name="spring-boot-journal-app" options="-parameters" />
+    </option>
+  </component>
+</project>
